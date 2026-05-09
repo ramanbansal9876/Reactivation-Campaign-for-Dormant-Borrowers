@@ -99,7 +99,7 @@ Full Borrower Base
 
 - Equal representation across all 4 dormancy cohorts in both test and control
 - Within test group: **A/B split of 10,000 users per offer variant**
-- Control group receives no offer — establishes organic baseline conversion
+- Control group received the offer but no marketing outreach — establishing a clean baseline to isolate marketing-driven lift from organic conversion
 - Stratified design ensures **clean incrementality measurement** across cohorts
 
 ### Step 4 — Campaign Execution
@@ -130,52 +130,6 @@ Incremental Lift  = Test Conversion Rate - Control (Baseline) Conversion Rate
 
 ---
 
-## 📈 Pilot Results
-
-### Uganda
-| Metric | Value |
-|--------|-------|
-| Pilot Base | 20,000 users (5,000/cohort) |
-| Expected Reactivated Users | ~5,280 |
-| Total Disbursal (Waiver Loans) | **$17,880** |
-| Incremental CLTV (3 Months) | **$14,316** |
-| Campaign Cost | **$238** |
-| Incremental Revenue (3M) | **$859** |
-| **ROI** | **~3.60x** |
-| Status | ✅ Pilot Approved — Going Live |
-
-**Uganda Cohort-Level Breakdown:**
-| Cohort | Pilot Users | Baseline Conv. | Post-Lift Conv. | Reactivated | Disbursal ($) | CLTV (3M) |
-|--------|------------|----------------|-----------------|-------------|---------------|-----------|
-| 30D Dormant | 5,000 | 28.5% | 33.6% | 1,680 | 6,149 | 5,356 |
-| 60D Dormant | 5,000 | 24.5% | 30.0% | 1,500 | 5,445 | 4,249 |
-| 90D Dormant | 5,000 | 19.4% | 24.0% | 1,200 | 3,870 | 2,985 |
-| 120D/120D+ | 5,000 | ~15% | 18.0% | 900 | 2,417 | 1,727 |
-| **Total** | **20,000** | — | — | **5,280** | **17,881** | **14,316** |
-
-### Tanzania
-| Metric | Value |
-|--------|-------|
-| Pilot Base | 20,000 users (5,000/cohort) |
-| Expected Reactivated Users | ~6,156 |
-| Total Disbursal (Waiver Loans) | **$15,379** |
-| Incremental CLTV (3 Months) | **$20,641** |
-| Campaign Cost | **$615** |
-| Incremental Revenue (3M) | **$1,238** |
-| **ROI** | **~2.01x** |
-| Status | ✅ Pilot Approved — Going Live (2 weeks after Uganda) |
-
-**Tanzania Cohort-Level Breakdown:**
-| Cohort | Pilot Users | Baseline Conv. | Post-Lift Conv. | Reactivated | Disbursal ($) | CLTV (3M) |
-|--------|------------|----------------|-----------------|-------------|---------------|-----------|
-| 30D Dormant | 5,000 | 31.4% | 37.7% | 1,884 | 5,043 | 6,879 |
-| 60D Dormant | 5,000 | 27.0% | 32.4% | 1,620 | 3,956 | 5,551 |
-| 90D Dormant | 5,000 | 23.1% | 27.7% | 1,386 | 3,319 | 4,373 |
-| 120D/120D+ | 5,000 | ~21% | 25.3% | 1,266 | 3,062 | 3,838 |
-| **Total** | **20,000** | — | — | **6,156** | **15,379** | **20,641** |
-
----
-
 ## 🛠️ Tools & Technologies
 
 | Tool | Usage |
@@ -194,11 +148,6 @@ Incremental Lift  = Test Conversion Rate - Control (Baseline) Conversion Rate
 3. **A/B testing offer variants is critical** — a 100% fee waiver drives higher initial conversion but a 50% waiver on 2 loans drives better CLTV; the right choice depends on portfolio strategy
 4. **Cohort-stratified pilot design ensures clean measurement** — equal representation across dormancy segments prevents any single cohort from dominating results and masking poor performance elsewhere
 5. **Repayment window design is market-specific** — Uganda's 15-day and Tanzania's 30-day windows reflect different product constraints and borrower behavior profiles; a one-size-fits-all approach would underperform in both markets
-6. **Control groups are non-negotiable** — without a no-offer control group, organic reactivation cannot be separated from campaign-driven lift, making ROI measurement unreliable
+6. **Control groups are non-negotiable** — the control group received the offer but without any marketing outreach, enabling clean separation of **marketing-driven lift** from organic conversion; without this design, true campaign incrementality cannot be measured reliably.
 
 ---
-
-## 🔗 Related Work
-- [First Loan Fee Waiver Campaign — NTC Conversion](https://github.com/ramanbansal9876/first-loan-fee-waiver-campaign)
-- [Winback Campaign — Dormant Borrower Re-engagement](#) *(coming soon)*
-- [Lifecycle Segmentation Model — Digital Lending](#) *(coming soon)*
